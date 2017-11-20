@@ -9,8 +9,9 @@ train.out is the stdout of Darknet training
 ```
 
 # bash-script "cpproc.sh"
-Detects standard file './predictions.png' and moves file to './result/predictions-<x>.png' with increasing
-index <x> >=0. It allows processing of multiple images referred by a text file './imgfiles.txt'.
+Detects standard file './predictions.png' and moves file to './result/predictions-x.png' with increasing
+index x >=0. It allows processing of multiple images referred by a text file './imgfiles.txt'.
+Example:
 ```
 cat imgfiles.txt 
 data/horses.jpg
